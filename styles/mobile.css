@@ -73,6 +73,11 @@ input[type="message"]{
   height: 32px;
 }
 
+textarea{
+  width: 255px;
+  height: 32px;
+}
+
 select{
   width: 255px;
   height: 32px;
