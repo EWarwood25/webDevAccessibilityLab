@@ -16,9 +16,6 @@ header {
 header h1 a:hover {
   text-decoration: underline;
 }
-header a{
-  color: whitesmoke;
-}
 #logo {
   padding: 10px;
 }
