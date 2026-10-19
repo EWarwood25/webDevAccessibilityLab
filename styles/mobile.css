@@ -64,9 +64,18 @@ section img {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"], 
+input[type="tel"],
+input[type="message"]{
   padding: 5px;
   font-size: 1.2rem;
+  width: 255px;
+  height: 32px;
+}
+
+select{
+  width: 255px;
+  height: 32px;
 }
 
 footer {
@@ -75,4 +84,10 @@ footer {
   font-size: 0.8em;
   text-align: center;
   font-style: italic;
+}
+
+label {
+  display: block;
+  padding: 5px;
+  padding-left: 0px;
 }
